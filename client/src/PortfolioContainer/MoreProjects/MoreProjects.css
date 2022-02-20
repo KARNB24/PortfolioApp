@@ -1,0 +1,38 @@
+.moreproject-section{
+  padding: 80px 0 80px;
+  background-image: url("../../../src/assets/MoreProjects/bg-1.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+
+}
+
+.moreproject-section::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.85;
+  background-color: #1f2235;
+}
+
+.moreproject-section .testi-item{
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px 50px 50px 0px;
+}
+
+.moreproject-section .testi-item p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+
+
